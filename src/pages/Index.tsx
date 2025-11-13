@@ -42,7 +42,7 @@ const Index = () => {
             Claim Now
           </Button>
           
-          <p className="text-xs text-muted-foreground mb-2">
+          <p className="text-sm text-muted-foreground mb-2">
             5 minutes • No purchase required
           </p>
         </div>
