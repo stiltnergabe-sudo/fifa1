@@ -30,11 +30,7 @@ const Index = () => {
           </h1>
         </div>
 
-        <div className="flex justify-center">
-          <div className="w-full max-w-sm">
-            <HowItWorks />
-          </div>
-        </div>
+        <HowItWorks />
 
         <div className="text-center animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-400">
           <Button 
