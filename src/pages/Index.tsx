@@ -30,13 +30,17 @@ const Index = () => {
           </h1>
         </div>
 
-        <HowItWorks />
+        <div className="flex justify-center">
+          <div className="w-full max-w-sm">
+            <HowItWorks />
+          </div>
+        </div>
 
         <div className="text-center animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-400">
           <Button 
             size="lg" 
             variant="hero" 
-            className="w-full max-w-sm h-12 text-base rounded-full mb-3"
+            className="w-full max-w-sm h-12 text-base rounded-full mb-3 text-black"
             onClick={handleClaimNow}
           >
             Claim Now
