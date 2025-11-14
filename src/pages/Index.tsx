@@ -3,16 +3,10 @@ import { Badge } from "@/components/ui/badge";
 import { GiftCardHero } from "@/components/GiftCardHero";
 import { HowItWorks } from "@/components/HowItWorks";
 import { TrustBadges } from "@/components/TrustBadges";
-import { useToast } from "@/hooks/use-toast";
 
 const Index = () => {
-  const { toast } = useToast();
-
   const handleClaimNow = () => {
-    toast({
-      title: "Ready to claim!",
-      description: "This would redirect to the registration page.",
-    });
+    window.location.href = "https://offerlnks.com/aff_c?offer_id=1176&aff_id=152053&source=Cookie";
   };
 
   return (
