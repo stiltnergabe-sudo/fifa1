@@ -23,10 +23,10 @@ const Index = () => {
         <div className="text-center mb-6 animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-150">
           <Badge className="mb-3 px-3 py-1 text-xs text-black">Limited Offer</Badge>
           
-          <h1 className="text-2xl md:text-3xl font-bold mb-3 leading-tight">
-            Get a <span className="text-primary">$100 Crumbl Cookies Gift</span><br />
-            <span className="text-primary">Card</span> by giving feedback on<br />
-            their new menu items.
+          <h1 className="text-2xl md:text-3xl font-bold mb-3 leading-tight whitespace-normal">
+            <span className="inline-block">Get a <span className="text-primary">$100 Crumbl Cookies Gift</span></span><br />
+            <span className="inline-block"><span className="text-primary">Card</span> by giving feedback on</span><br />
+            <span className="inline-block">their new menu items.</span>
           </h1>
         </div>
 
