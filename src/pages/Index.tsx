@@ -6,7 +6,7 @@ import { TrustBadges } from "@/components/TrustBadges";
 
 const Index = () => {
   const handleClaimNow = () => {
-    window.location.href = "https://uplevelrewarded.com/aff_c?offer_id=1176&aff_id=152053&source=Cookie";
+    window.location.href = "https://trkio.org/aff_c?offer_id=1741&aff_id=152053";
   };
 
   return (
