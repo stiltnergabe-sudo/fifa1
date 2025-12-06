@@ -15,7 +15,7 @@ const Index = () => {
         <GiftCardHero />
         
         <div className="text-center mb-6 animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-150">
-          <Badge className="mb-3 px-3 py-1 text-xs">Limited Offer</Badge>
+          <Badge className="mb-3 px-3 py-1 text-xs text-black">Limited Offer</Badge>
           
           <h1 className="text-xl sm:text-2xl md:text-3xl font-bold mb-3 leading-tight whitespace-normal">
             <span className="inline-block whitespace-nowrap">Get a <span className="text-primary">$100 Starbucks Gift</span></span><br />
@@ -30,7 +30,7 @@ const Index = () => {
           <Button 
             size="lg" 
             variant="hero" 
-            className="w-full max-w-sm h-12 text-base rounded-full mb-3"
+            className="w-full max-w-sm h-12 text-base rounded-full mb-3 text-black"
             onClick={handleClaimNow}
           >
             Claim Now
