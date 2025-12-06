@@ -18,7 +18,7 @@ const Index = () => {
           <Badge className="mb-3 px-3 py-1 text-xs text-black">Limited Offer</Badge>
           
           <h1 className="text-xl sm:text-2xl md:text-3xl font-bold mb-3 leading-tight whitespace-normal">
-            <span className="inline-block whitespace-nowrap">Get a <span className="text-primary">$100 Crumbl Cookies Gift</span></span><br />
+            <span className="inline-block whitespace-nowrap">Get a <span className="text-primary">$100 Starbucks Gift</span></span><br />
             <span className="inline-block whitespace-nowrap"><span className="text-primary">Card</span> by giving feedback on</span><br />
             <span className="inline-block whitespace-nowrap">their new menu items.</span>
           </h1>
