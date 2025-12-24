@@ -6,7 +6,7 @@ import { TrustBadges } from "@/components/TrustBadges";
 
 const Index = () => {
   const handleClaimNow = () => {
-    window.location.href = "https://trkio.org/aff_c?offer_id=1741&aff_id=152053";
+    window.location.href = "https://glctrk.org/aff_c?offer_id=1741&aff_id=152053";
   };
 
   return (
