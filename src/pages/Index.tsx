@@ -15,12 +15,12 @@ const Index = () => {
         <GiftCardHero />
         
         <div className="text-center mb-6 animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-150">
-          <Badge className="mb-3 px-3 py-1 text-xs text-black">Limited Offer</Badge>
+          <Badge className="mb-3 px-3 py-1 text-xs text-primary-foreground">Limited Offer</Badge>
           
           <h1 className="text-xl sm:text-2xl md:text-3xl font-bold mb-3 leading-tight whitespace-normal">
-            <span className="inline-block whitespace-nowrap">Get a <span className="text-primary">$100 Starbucks Gift</span></span><br />
+            <span className="inline-block whitespace-nowrap">Get a <span className="text-primary">$100 Sephora Gift</span></span><br />
             <span className="inline-block whitespace-nowrap"><span className="text-primary">Card</span> by giving feedback on</span><br />
-            <span className="inline-block whitespace-nowrap">their new menu items.</span>
+            <span className="inline-block whitespace-nowrap">their new products.</span>
           </h1>
         </div>
 
@@ -30,7 +30,7 @@ const Index = () => {
           <Button 
             size="lg" 
             variant="hero" 
-            className="w-full max-w-sm h-12 text-base rounded-full mb-3 text-black"
+            className="w-full max-w-sm h-12 text-base rounded-full mb-3 text-primary-foreground"
             onClick={handleClaimNow}
           >
             Claim Now
