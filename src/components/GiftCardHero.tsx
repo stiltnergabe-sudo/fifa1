@@ -6,7 +6,7 @@ export const GiftCardHero = () => {
       <img 
         src={giftCard} 
         alt="Sephora Gift Card" 
-        className="w-48 h-auto rounded-xl shadow-card hover:scale-105 transition-transform duration-300"
+        className="w-72 sm:w-80 h-auto rounded-xl shadow-card hover:scale-105 transition-transform duration-300"
       />
     </div>
   );
