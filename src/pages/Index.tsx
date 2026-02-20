@@ -6,7 +6,7 @@ import { TrustBadges } from "@/components/TrustBadges";
 
 const Index = () => {
   const handleClaimNow = () => {
-    window.location.href = "https://glctrk.org/aff_c?offer_id=1185&aff_id=152053";
+    window.location.href = "https://gloffers.org/aff_c?offer_id=346&aff_id=152053&source=346";
   };
 
   return (
@@ -18,7 +18,7 @@ const Index = () => {
           <Badge className="mb-3 px-3 py-1 text-xs text-primary-foreground">Limited Offer</Badge>
           
           <h1 className="text-xl sm:text-2xl md:text-3xl font-bold mb-3 leading-tight whitespace-normal">
-            <span className="inline-block whitespace-nowrap">Get a <span className="text-primary">$750 Sephora Gift</span></span><br />
+            <span className="inline-block whitespace-nowrap">Get a <span className="text-primary">$100 Sephora Gift</span></span><br />
             <span className="inline-block whitespace-nowrap"><span className="text-primary">Card</span> by giving feedback on</span><br />
             <span className="inline-block whitespace-nowrap">their products.</span>
           </h1>
