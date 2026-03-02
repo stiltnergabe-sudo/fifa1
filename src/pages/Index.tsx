@@ -1,11 +1,16 @@
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { GiftCardHero } from "@/components/GiftCardHero";
 import { HowItWorks } from "@/components/HowItWorks";
 import { TrustBadges } from "@/components/TrustBadges";
+import { Loader2 } from "lucide-react";
 
 const Index = () => {
+  const [isLoading, setIsLoading] = useState(false);
+
   const handleClaimNow = () => {
+    setIsLoading(true);
     window.location.href = "https://trkfy.org/aff_c?offer_id=90&aff_id=152053&source=test";
   };
 
@@ -32,8 +37,16 @@ const Index = () => {
             variant="hero" 
             className="w-full max-w-sm h-12 text-base rounded-full mb-3 text-primary-foreground"
             onClick={handleClaimNow}
+            disabled={isLoading}
           >
-            Claim Now
+            {isLoading ? (
+              <>
+                <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                Redirecting...
+              </>
+            ) : (
+              "Claim Now"
+            )}
           </Button>
           
           <p className="text-sm text-muted-foreground mb-2">
