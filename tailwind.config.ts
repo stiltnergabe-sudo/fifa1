@@ -84,7 +84,7 @@ export default {
         },
       },
       animation: {
-        marquee: "marquee 20s linear infinite",
+        marquee: "marquee 12s linear infinite",
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
