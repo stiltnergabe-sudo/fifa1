@@ -20,17 +20,16 @@ export const TestimonialBar = () => {
   const doubled = [...testimonials, ...testimonials];
 
   return (
-    <div className="w-full overflow-hidden mt-8 py-4 border-t border-b border-border/40 bg-muted/30">
-      <div className="flex animate-marquee whitespace-nowrap">
+    <div className="w-full overflow-hidden mt-8 py-5">
+      <div className="flex animate-marquee">
         {doubled.map((t, i) => (
-          <span
+          <div
             key={i}
-            className="mx-6 text-sm inline-flex items-center gap-1.5"
+            className="mx-3 flex-shrink-0 rounded-lg border border-border/60 bg-card px-4 py-3 shadow-sm"
           >
-            <span className="font-semibold text-foreground">{t.name}</span>
-            <span className="text-muted-foreground">—</span>
-            <span className="text-foreground/70">"{t.text}"</span>
-          </span>
+            <p className="text-sm text-foreground/80 whitespace-nowrap">"{t.text}"</p>
+            <p className="text-xs font-semibold text-primary mt-1">{t.name}</p>
+          </div>
         ))}
       </div>
     </div>
