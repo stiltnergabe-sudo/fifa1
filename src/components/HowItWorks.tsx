@@ -3,9 +3,8 @@ import { Card } from "@/components/ui/card";
 const steps = [
   { number: 1, text: "Click Claim Now" },
   { number: 2, text: "Register with Email & basic info" },
-  { number: 3, text: "Complete a quick survey" },
-  { number: 4, text: "Complete at least 3-5 Deals" },
-  { number: 5, text: "Check your email for the checkout code" },
+  { number: 3, text: "Complete at least 5-7 Deals" },
+  { number: 4, text: "Check your email for the checkout code" },
 ];
 
 export const HowItWorks = () => {

@@ -31,10 +31,10 @@ const Index = () => {
           <Button 
             size="lg" 
             variant="hero" 
-            className="w-full max-w-sm h-12 text-base rounded-full mb-3 text-primary-foreground"
+            className="w-full max-w-sm h-14 text-lg rounded-full mb-3 text-primary-foreground shadow-[0_0_25px_hsl(var(--primary)/0.5)] hover:shadow-[0_0_35px_hsl(var(--primary)/0.6)] hover:scale-105 transition-all duration-300"
             onClick={handleClaimNow}
           >
-            Claim Now
+            🎁 Claim Now
           </Button>
           
           <p className="text-sm text-muted-foreground mb-2">
