@@ -1,6 +1,6 @@
 import { memo } from "react";
 
-const items = ["🔥 {count} claimed today", "✅ No purchase needed", "⏱️ Takes only 5 minutes"];
+const items = ["{count} claimed today", "No purchase needed", "Takes only 5 minutes"];
 
 export const TopBar = memo(({ count }: { count: number }) => {
   const doubled = [...items, ...items].map((t) => t.replace("{count}", String(count)));
