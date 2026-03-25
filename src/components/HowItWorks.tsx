@@ -16,13 +16,15 @@ export const HowItWorks = () => {
           {steps.map((step) => (
             <div 
               key={step.number} 
-              className="flex items-center gap-3"
+              className="flex items-start gap-3"
             >
-              <div className="flex-shrink-0 w-7 h-7 rounded-full bg-secondary/60 flex items-center justify-center text-primary font-bold text-xs border border-border/20">
+              <div className="flex-shrink-0 w-7 h-7 rounded-full bg-secondary/60 flex items-center justify-center text-primary font-bold text-xs border border-border/20 mt-0.5">
                 {step.number}
               </div>
-              <p className="text-foreground text-sm leading-relaxed">{step.text}</p>
-              {step.sub && <p className="text-muted-foreground text-xs">{step.sub}</p>}
+              <div>
+                <p className="text-foreground text-sm leading-relaxed">{step.text}</p>
+                {step.sub && <p className="text-muted-foreground text-xs">{step.sub}</p>}
+              </div>
             </div>
           ))}
         </div>
