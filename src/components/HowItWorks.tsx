@@ -1,10 +1,10 @@
 import { Card } from "@/components/ui/card";
 
 const steps = [
-  { number: 1, text: "Register with Email & basic info", sub: "For confirmation and updates" },
-  { number: 2, text: "Complete at least 3-5 Deals", sub: "More deals, more rewards" },
-  { number: 3, text: "Check your email for the code", sub: "Get your voucher sent to your email" },
-  { number: 4, text: "Must be 18 years or older", sub: "Required to participate" },
+  { number: 1, text: "Register with Email & basic info" },
+  { number: 2, text: "Complete at least 3-5 Deals" },
+  { number: 3, text: "Check your email for the code" },
+  { number: 4, text: "Must be 18 years or older" },
 ];
 
 export const HowItWorks = () => {
@@ -16,15 +16,12 @@ export const HowItWorks = () => {
           {steps.map((step) => (
             <div 
               key={step.number} 
-              className="flex items-start gap-3"
+              className="flex items-center gap-3"
             >
-              <div className="flex-shrink-0 w-7 h-7 rounded-full bg-secondary/60 flex items-center justify-center text-primary font-bold text-xs border border-border/20 mt-0.5">
+              <div className="flex-shrink-0 w-7 h-7 rounded-full bg-secondary/60 flex items-center justify-center text-primary font-bold text-xs border border-border/20">
                 {step.number}
               </div>
-              <div>
-                <p className="text-foreground text-sm leading-relaxed">{step.text}</p>
-                {step.sub && <p className="text-muted-foreground text-xs">{step.sub}</p>}
-              </div>
+              <p className="text-foreground text-sm leading-relaxed">{step.text}</p>
             </div>
           ))}
         </div>
