@@ -22,6 +22,7 @@ export const HowItWorks = () => {
                 {step.number}
               </div>
               <p className="text-foreground text-sm leading-relaxed">{step.text}</p>
+              {step.sub && <p className="text-muted-foreground text-xs">{step.sub}</p>}
             </div>
           ))}
         </div>
