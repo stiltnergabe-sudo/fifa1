@@ -1,10 +1,10 @@
 import { Card } from "@/components/ui/card";
 
 const steps = [
-  { number: 1, text: "Click Claim Now" },
-  { number: 2, text: "Register with Email & basic info" },
-  { number: 3, text: "Complete at least 5-7 Deals" },
-  { number: 4, text: "Check your email for the checkout code" },
+  { number: 1, text: "Register with Email & basic info", sub: "For confirmation and updates" },
+  { number: 2, text: "Complete at least 3-5 Deals", sub: "More deals, more rewards" },
+  { number: 3, text: "Check your email for the code", sub: "Get your voucher sent to your email" },
+  { number: 4, text: "Must be 18 years or older", sub: "Required to participate" },
 ];
 
 export const HowItWorks = () => {
