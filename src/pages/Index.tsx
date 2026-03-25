@@ -44,6 +44,9 @@ const Index = () => {
               🎁 Claim Now
             </Button>
             
+            <p className="text-sm text-muted-foreground mb-1">
+              Only 47 left today
+            </p>
             <p className="text-sm text-muted-foreground mb-2">
               5 minutes • No purchase required
             </p>
