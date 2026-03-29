@@ -18,7 +18,8 @@ const Index = () => {
 
   return (
     <>
-      <div className="min-h-screen bg-background flex items-center justify-center p-4">
+      <TopBar count={claimCount} />
+      <div className="min-h-screen bg-background flex items-center justify-center p-4 pt-10">
         <div className="max-w-xl w-full py-8">
           <GiftCardHero />
           
