@@ -5,6 +5,7 @@ import { GiftCardHero } from "@/components/GiftCardHero";
 import { HowItWorks } from "@/components/HowItWorks";
 import { TrustBadges } from "@/components/TrustBadges";
 import { TestimonialBar } from "@/components/TestimonialBar";
+import { TopBar } from "@/components/TopBar";
 
 
 const Index = () => {
@@ -17,7 +18,8 @@ const Index = () => {
 
   return (
     <>
-      <div className="min-h-screen bg-background flex items-center justify-center p-4">
+      <TopBar count={claimCount} />
+      <div className="min-h-screen bg-background flex items-center justify-center p-4 pt-10">
         <div className="max-w-xl w-full py-8">
           <GiftCardHero />
           
