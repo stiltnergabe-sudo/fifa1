@@ -5,6 +5,7 @@ import { GiftCardHero } from "@/components/GiftCardHero";
 import { HowItWorks } from "@/components/HowItWorks";
 import { TrustBadges } from "@/components/TrustBadges";
 import { TestimonialBar } from "@/components/TestimonialBar";
+import { TopBar } from "@/components/TopBar";
 
 
 const Index = () => {
