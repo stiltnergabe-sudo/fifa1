@@ -53,6 +53,11 @@ const Index = () => {
           </div>
 
           <TrustBadges />
+          <div className="my-10 flex items-center gap-4 max-w-md mx-auto">
+            <div className="h-px flex-1 bg-border/60" />
+            <span className="text-xs uppercase tracking-widest text-muted-foreground">Rewards</span>
+            <div className="h-px flex-1 bg-border/60" />
+          </div>
           <RewardsTable />
           <div className="my-10 flex items-center gap-4 max-w-md mx-auto">
             <div className="h-px flex-1 bg-border/60" />
