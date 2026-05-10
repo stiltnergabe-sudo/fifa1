@@ -3,7 +3,7 @@ import { Card } from "@/components/ui/card";
 const steps = [
   { number: 1, text: "Register with Email & basic info" },
   { number: 2, text: "Complete at least 3-5 Deals" },
-  { number: 3, text: "Check your email for the code" },
+  { number: 3, text: "Check your email for the coupon code" },
   { number: 4, text: "Must be 18 years or older" },
 ];
 
