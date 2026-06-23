@@ -9,7 +9,7 @@ const steps = [
 
 export const HowItWorks = () => {
   return (
-    <div className="flex justify-center">
+    <div id="how-it-works" className="flex justify-center scroll-mt-6">
       <Card className="bg-card/40 border-2 border-primary/50 p-6 mb-6 shadow-glow rounded-3xl animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-300 w-full max-w-md">
         <h2 className="text-xl font-bold text-primary mb-5 text-center">How It Works</h2>
         <div className="space-y-3">
