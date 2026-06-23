@@ -11,7 +11,7 @@ const Index = () => {
   const [claimCount] = useState(1349);
 
   const handleClaimNow = useCallback(() => {
-    window.location.href = "https://trksy.org/aff_c?offer_id=1185&aff_id=152053&source=epc";
+    window.location.href = "https://giftclick.org/aff_c?offer_id=4717&aff_id=152053";
   }, []);
 
   return (
