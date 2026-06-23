@@ -1,20 +1,21 @@
 const testimonials = [
-  { name: "Sarah M.", text: "Got my $750 gift card in just 3 days!" },
-  { name: "Jessica L.", text: "So easy, took me like 5 minutes to sign up" },
-  { name: "Emily R.", text: "I was honestly skeptical but it actually came through" },
-  { name: "Amanda K.", text: "Best beauty deal I've found this year" },
-  { name: "Rachel T.", text: "Already used mine at Sephora, got the Dyson Airwrap!" },
-  { name: "Megan P.", text: "Told my roommate and she got hers too lol" },
-  { name: "Brittany S.", text: "Thought it was fake but nope, legit gift card" },
-  { name: "Lauren W.", text: "Finally stocked up on all my skincare favorites" },
-  { name: "Olivia H.", text: "The whole process was super straightforward honestly" },
-  { name: "Taylor D.", text: "Used it on perfume and still had money left over" },
-  { name: "Kayla N.", text: "My friend sent me this and I'm so glad she did" },
-  { name: "Ashley B.", text: "Just got the email with my gift card code 🙌" },
-  { name: "Samantha G.", text: "Went on a full Sephora haul with this, no regrets" },
-  { name: "Nicole F.", text: "Took about a week but totally worth the wait" },
-  { name: "Christina J.", text: "I keep telling people about this and nobody believes me until they try" },
+  { name: "Marcus T.", text: "Got $750 off my USA vs Mexico group stage tickets, unreal" },
+  { name: "Diego R.", text: "Knocked the price of two Final tickets way down, thank you" },
+  { name: "Liam O.", text: "Booked MetLife semifinal seats with this, saved a fortune" },
+  { name: "Jamal W.", text: "Took 4 minutes, code worked at checkout no issues" },
+  { name: "Sofia M.", text: "Flying to Toronto for the opener and this covered a chunk of it" },
+  { name: "Ethan K.", text: "My brother didn't believe me until I forwarded him the confirmation lol" },
+  { name: "Andre P.", text: "Got Mexico City group tickets for me and my dad, huge W" },
+  { name: "Carlos V.", text: "Used it on Round of 16 seats in LA, legit discount" },
+  { name: "Noah B.", text: "Was about to pay full price, glad I saw this first" },
+  { name: "Tyler J.", text: "Code dropped in my email same day, applied no problem" },
+  { name: "Ricardo S.", text: "Saving for the Final with my buddies, this made it actually doable" },
+  { name: "Kevin H.", text: "Houston quarterfinal tickets locked in, $750 off no joke" },
+  { name: "Mateo F.", text: "Brazil vs Argentina if it happens, I'll be there because of this" },
+  { name: "Owen D.", text: "Worked on FIFA's official resale, didn't think it would tbh" },
+  { name: "Lucas A.", text: "Already telling the whole group chat about this" },
 ];
+
 
 export const TestimonialBar = () => {
   const doubled = [...testimonials, ...testimonials];
