@@ -40,6 +40,19 @@ const Index = () => {
             </div>
           </div>
 
+          <div className="text-center mb-4 animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-200">
+            <Button
+              size="lg"
+              variant="hero"
+              className="w-full max-w-sm h-12 text-base rounded-full text-primary-foreground shadow-[0_0_20px_hsl(var(--primary)/0.4)] hover:shadow-[0_0_30px_hsl(var(--primary)/0.55)] hover:scale-105 transition-all duration-300"
+              onClick={() => document.getElementById("how-it-works")?.scrollIntoView({ behavior: "smooth", block: "start" })}
+            >
+              <span className="opacity-70">↓</span>
+              <span className="mx-2">Claim Your Spot</span>
+              <span className="opacity-70">↓</span>
+            </Button>
+          </div>
+
           <CountdownTimer />
 
           <HowItWorks />
@@ -54,22 +67,16 @@ const Index = () => {
               🎟️ Claim Now
             </Button>
 
-            <p className="text-sm text-muted-foreground mb-1">
-              Only 47 left today
-            </p>
             <p className="text-sm text-muted-foreground mb-2">
-              5 minutes • No purchase required
+              10 minutes • No purchase required
             </p>
           </div>
 
           <TrustBadges />
 
-          <div className="my-10 flex items-center gap-4 max-w-md mx-auto">
-            <div className="h-px flex-1 bg-border/60" />
-            <span className="text-xs uppercase tracking-widest text-muted-foreground">What people are saying</span>
-            <div className="h-px flex-1 bg-border/60" />
-          </div>
+          <div className="mt-8" />
           <TestimonialBar />
+
         </div>
       </div>
     </>
